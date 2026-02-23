@@ -7,7 +7,7 @@ Panel surya adalah alat yang berfungsi mengubah energi cahaya matahari menjadi e
 LDR (Light Dependent Resistor) adalah sensor yang nilai resistansinya berubah sesuai dengan intensitas cahaya. Semakin terang cahaya yang diterima, maka nilai resistansi akan semakin kecil. Pada project ini digunakan 4 buah LDR untuk mendeteksi arah datangnya cahaya.
 2.	ESP32
 ESP32 adalah mikrokontroler yang berfungsi sebagai pusat pengolahan data. ESP32 membaca data dari sensor LDR, mengolahnya, lalu mengirimkan perintah ke motor servo untuk bergerak ke arah cahaya yang paling terang.
-3.	4. Motor Servo MG995
+3.	Motor Servo MG995
 Motor servo MG995 adalah motor servo dengan sudut gerak hingga 180 derajat. Motor ini digunakan sebagai penggerak panel surya pada sumbu horizontal dan vertikal.
 6.	Baterai Lithium-ion
 Baterai lithium-ion digunakan untuk menyimpan energi listrik dari panel surya. Baterai ini memiliki kapasitas besar dan dapat digunakan kembali.
